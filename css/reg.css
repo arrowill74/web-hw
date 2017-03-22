@@ -1,0 +1,39 @@
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#004799+0,2989d8+50,89ffff+100 */
+    background: #004799;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #004799 0%, #2989d8 50%, #89ffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #004799 0%, #2989d8 50%, #89ffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #004799 0%, #2989d8 50%, #89ffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#004799', endColorstr='#89ffff', GradientType=1);
+    /* IE6-9 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form * {
+    border: none;
+    color: #000;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+}
+
+form *:focus {
+    border: #888 3px ridge;
+}
+
+select:valid,
+input:valid {
+    background-color: #e0ffdd;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #32906e;
+    color: #fff;
+}
